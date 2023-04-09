@@ -4,6 +4,10 @@ body {
 	font-family: verdana;
     background-image: url('it.jpg'); 
 }
+div{
+    padding: 0;
+	margin: 0;
+}
 
 .container {
 	display: flex;
@@ -29,8 +33,16 @@ body {
     transition: 0.5s;
 }
 
-.txt, .digit, .btn{
+.digit, .btn{
     color: white;
+}
+
+.txt{
+    color: rgb(122, 121, 121);
+}
+
+div .batas-kanan{
+    display: inline-block;
 }
 
 #start {
@@ -74,6 +86,10 @@ body {
         font-size: 20px;
         font-weight: 500;
     }
+
+    div .batas-kanan{
+        margin-right: 10px;
+    }
 }
 
 /* Jika ukuran layar lebar 600px atau kurang, setel ukuran font <div> menjadi 30px*/
@@ -104,5 +120,9 @@ body {
         border-top-left-radius: 2px;
         font-size: 10px;
         font-weight: 250;
+    }
+
+    div .batas-kanan{
+        margin-right: 5px;
     }
 }
