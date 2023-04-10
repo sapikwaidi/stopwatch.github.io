@@ -46,15 +46,15 @@ div .batas-kanan{
 }
 
 #start {
-	background-color: #009712;
+	background-color: #02b314;
 }
 
 #stop {
-	background-color: #f70404;
+	background-color: #9b0303;
 }
 
 #reset {
-	background-color: #fce304;
+	background-color: #ae9d00;
 }
 
 /* Jika ukuran layar lebar 601px atau lebih, setel ukuran font <div> menjadi 80px */
@@ -95,34 +95,34 @@ div .batas-kanan{
 /* Jika ukuran layar lebar 600px atau kurang, setel ukuran font <div> menjadi 30px*/
 @media screen and (max-width: 600px) {
     div .judul{
-        font-size: 25px;
+        font-size: 45px;
     }
 
     div .txt{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     div .digit{
-        font-size: 20px;
+        font-size: 35px;
     }
 
     #buttons {
-        margin-top: 25px;
+        margin-top: 35px;
     }
 
     .btn {
-        width: 50px;
-        padding: 5px 7.5px;
-        margin: 0px 10px;
-        border-top-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 2px;
-        border-top-left-radius: 2px;
-        font-size: 10px;
-        font-weight: 250;
+        width: 75px;
+        padding: 8px 10px;
+        margin: 0px 15px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 3px;
+        border-top-left-radius: 3px;
+        font-size: 15px;
+        font-weight: 350;
     }
 
     div .batas-kanan{
-        margin-right: 5px;
+        margin-right: 8px;
     }
 }
