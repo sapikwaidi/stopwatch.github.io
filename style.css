@@ -61,6 +61,7 @@ div .batas-kanan{
 @media screen and (min-width: 601px) {
     div .judul{
         font-size: 50px;
+        margin-bottom: 20px;
     }
 
     div .txt{
@@ -95,7 +96,8 @@ div .batas-kanan{
 /* Jika ukuran layar lebar 600px atau kurang, setel ukuran font <div> menjadi 30px*/
 @media screen and (max-width: 600px) {
     div .judul{
-        font-size: 45px;
+        font-size: 35px;
+        margin-bottom: 10px;
     }
 
     div .txt{
@@ -103,23 +105,23 @@ div .batas-kanan{
     }
 
     div .digit{
-        font-size: 35px;
+        font-size: 20px;
     }
 
     #buttons {
-        margin-top: 35px;
+        margin-top: 25px;
     }
 
     .btn {
-        width: 75px;
-        padding: 8px 10px;
-        margin: 0px 15px;
-        border-top-right-radius: 8px;
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 3px;
-        border-top-left-radius: 3px;
-        font-size: 15px;
-        font-weight: 350;
+        width: 50px;
+        padding: 5px 7.5px;
+        margin: 0px 10px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 2px;
+        border-top-left-radius: 2px;
+        font-size: 13px;
+        font-weight: 250;
     }
 
     div .batas-kanan{
